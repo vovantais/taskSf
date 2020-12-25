@@ -1,0 +1,9 @@
+<apex:page controller="defaultvalue">
+	<apex:form style="display:flex;flex-direction:column;justify-content:center;align-items:center;align-content: center; text-align:center;position:absolute;top:0;left:0;bottom:0;rigth:0;width:100%;height:100%;
+	margin:0 auto;">
+		<apex:outputLabel style="font-size:17px;" value="Comment" />
+		<apex:inputTextarea style="width: 300px; min-height:200px; margin:10px 0px" value="{!strDefault}" />
+		<apex:commandButton style=" width: 100px; heigth:30px; text-align:center;font-size:16px " value="Save" action="{!changeFieldTask}"
+		/>
+	</apex:form>
+</apex:page>

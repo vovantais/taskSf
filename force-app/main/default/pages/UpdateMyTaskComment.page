@@ -1,0 +1,5 @@
+<apex:page StandardController="MyTask__c" extensions="UpdateMyTaskComment">
+	<apex:form>
+		<apex:commandButton value="Update MyTask Comment" action="{!updateFeild}" />
+	</apex:form>
+</apex:page>
